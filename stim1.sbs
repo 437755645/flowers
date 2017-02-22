@@ -1,0 +1,86 @@
+## SCL Builder Setup File: Do not edit!!
+
+## VERSION: 3.60.00.00
+## FORMAT:  v2.00.01
+## DEVICE:  PIC24FJ256GA106
+
+## PINREGACTIONS
+cyc
+No Repeat
+--
+&
+## ADVPINREGACTIONS
+--
+&
+--
+COND1
+Any
+
+
+
+
+
+
+--
+&
+## CLOCK
+Calendar
+INT1
+Always
+Never
+High
+100000
+1
+
+--
+&
+## STIMULUSFILE
+S1
+U2RXREG
+Message
+00000
+2
+COM2_RX.txt
+Pkt
+Yes
+(optional)
+--
+&
+## RESPONSEFILE
+a
+U1TXREG
+Demand
+00000
+2
+COM1_TX.txt
+Raw
+TX1 com
+--
+&
+## ASYNCH
+Pin
+INT1
+Set High
+
+
+-1
+--
+Pin
+INT1
+Set Low
+
+
+-1
+--
+Pin
+INT1
+Pulse Low
+10 cyc
+
+-1
+--
+&
+## ADVANCEDSCL
+
+1
+&

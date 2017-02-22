@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/TRANS-X/test/inc/BASE.h</file>
+            <file>file:/C:/TRANS-X/test/inc/Tf_Ch376Inc.H</file>
+            <file>file:/C:/TRANS-X/test/inc/Tf_Ch376Func.H</file>
+            <file>file:/C:/TRANS-X/test/inc/HEADER.H</file>
+            <file>file:/C:/TRANS-X/test/src/DS18B20.c</file>
+            <file>file:/C:/TRANS-X/test/src/Adc.c</file>
+            <file>file:/C:/mcc30/support/PIC24F/gld/p24FJ256GA106.gld</file>
+            <file>file:/C:/TRANS-X/test/src/DEBUG.c</file>
+            <file>file:/C:/TRANS-X/test/src/In_Sensor.c</file>
+            <file>file:/C:/TRANS-X/test/src/Lcd.c</file>
+            <file>file:/C:/TRANS-X/test/src/Regist.c</file>
+            <file>file:/C:/TRANS-X/test/src/Reports.c</file>
+            <file>file:/C:/TRANS-X/test/src/ReadPort.c</file>
+            <file>file:/C:/TRANS-X/test/src/cmBeidou.c</file>
+            <file>file:/C:/TRANS-X/test/src/Usb_disk.c</file>
+            <file>file:/C:/TRANS-X/test/src/cmGsmSm.c</file>
+            <file>file:/C:/TRANS-X/test/src/Sub.c</file>
+            <file>file:/C:/TRANS-X/test/src/Main.c</file>
+            <file>file:/C:/TRANS-X/test/src/Init.c</file>
+            <file>file:/C:/TRANS-X/test/Mix.X/Makefile</file>
+            <file>file:/C:/TRANS-X/test/Mix.X/ezbl_integration/uart_fifo.h</file>
+        </group>
+    </open-files>
+</project-private>

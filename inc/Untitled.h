@@ -1,0 +1,25 @@
+BYTE CardReadRec(UINT32 Offset,UINT32 ulLen,BYTE *cx_cfg,BYTE *bShortFn);
+void CarInitProgress(void );
+BYTE CardInit(void);
+BYTE CardMount(void);
+BOOL CreatShortName(BYTE *cx_cfg,BYTE *bShortFn);
+void CreatLongName(BYTE *bShortFn,BYTE *bLongfn);
+BYTE get_TfCardStartTime(BYTE * pbSTime,BYTE * bShortFn);
+BYTE set_CardStartTimeInCfg(BYTE *pbSTime,BYTE *bShortFn);
+long getTfCfgLen(void);
+BYTE GetCxCardFilename(BYTE *fn); //modified by qian 
+BYTE CreatCxCardFile(BYTE* bShortFn,BYTE* bLongFn);
+BYTE InitCxCardRec(BYTE *cx_cfg);
+long DeltaToSec(hTIME *curT,hTIME *staT);
+BYTE ListFile( UINT8 index );
+BYTE ListAll( void );
+BYTE CardWriteRec(UINT32 Offset,BYTE *cx_cfg,BYTE *bShortFn);
+BYTE CardReadRec(UINT32 Offset,UINT32 ulLen,BYTE *cx_cfg,BYTE *bShortFn);
+void InitCardFiles(void);
+char ReadTfRecodeBack(hTIME *cur_hTime,BYTE *cx_cfg,BYTE *bShortFn,BYTE *recode_belt);
+char TFRecord(BYTE *pBelts,BYTE offset,hTIME * cur_hTime,BYTE *cx_cfg,BYTE *bShortFn);
+void TfCardProc(void);
+void TimeStr2Struct(BYTE* str_time,hTIME *h_Time);
+long getRgSec(BYTE unit,BYTE interval);
+void hTimeToStrFlag(hTIME *dt,BYTE *strTime);
+void CxReadProc(void);
